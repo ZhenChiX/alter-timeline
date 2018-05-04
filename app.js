@@ -8,7 +8,7 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-
+var numbers=[4,7];
 function sum(a, b) { //eslint-disable-line
 
 
@@ -37,13 +37,17 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 var result = a * b;
+<<<<<<< HEAD
 var message ='The product of '+ a +' and ' + b +' is ' + result + '.';
+=======
+var message ='The product of'+ a +'and' + b +' is' + result + '.';
+>>>>>>> e4dbce4f21d1f350da20b76e933eb6e489ce6c98
 
 }
 return [result,message];
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -60,6 +64,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+<<<<<<< HEAD
 var sumResult = a + b + c;
 var multiplyResult = a * b * c;
 var message1= a +' and'+ b +' and '+ c + ' sum to ' + sumResult +' .';
@@ -68,6 +73,14 @@ var message2 ='The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multi
 }
 //testing//
 return[result,message];
+=======
+var sumResult = a + b +c;
+var MultiplyResult = a*b*c;
+var message = a +' and'+ b +' and'+ c + 'sum to' + sumResult +' .';
+}
+
+return[sumResult,message];
+>>>>>>> e4dbce4f21d1f350da20b76e933eb6e489ce6c98
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
 
