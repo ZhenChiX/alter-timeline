@@ -145,8 +145,7 @@ var testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
     var result = multiply(multiply(multiply(multiply(testDynamicArray[0], testDynamicArray[1])[0], testDynamicArray[2])[0], testDynamicArray[3])[0], testDynamicArray[4])[0];
-    "The numbers 1,2,3,4,5 have a product of 120."
-    var message = 'The numbers ' + testDynamicArray[0] + ',' + testDynamicArray[1] + ',' + testDynamicArray[2] + ',' + testDynamicArray[3] + ',' + testDynamicArray[4] + ' have a product of 120.';
+    var message = 'The numbers ' + testDynamicArray[0] + ',' + testDynamicArray[1] + ',' + testDynamicArray[2] + ',' + testDynamicArray[3] + ',' + testDynamicArray[4] + ' have a product of '+result+'.';
     return [result, message];
 }
 
